@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mvtfamilia.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:\Users\Fede\Desktop\mvtalvarezfede\templates"],
+        'DIRS': [r"C:\Users\Fede\Desktop\mvtalvarezfede\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
