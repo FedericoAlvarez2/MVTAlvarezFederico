@@ -11,16 +11,17 @@
 <body>
     <h1> <strong>¡FAMILIA ALVAREZ! </strong></h1>
     <p>
-        {% for familiar in familiares %}
+        {% for familia1 in familia %}
             <div>
                <p>
-                Nombre: {{familiar.nombre}}<br>        
-                Apellido: {{familiar.apellido}}<br>
-                Edad: {{familiar.edad}}<br>
-                Fecha de nacimiento: {{familiar.fecha_nacimiento}}<br>
+                Nombre: {{familia1.nombre}}<br>        
+                Apellido: {{familia1.apellido}}<br>
+                Edad: {{familia1.edad}}<br>
+                Fecha de nacimiento: {{familia1.fecha_nacimiento}}<br>
                 ---------------------------
                </p> 
             </div>
+           
 
         {%endfor%}
 
@@ -32,10 +33,10 @@
 </html>
 
 
-{% for n in familiares %}
-{{Familia.nombre}}
-{{Familia.apellido}}
-{{Familia.edad}}
-{{Familia.fecha_nacimiento}}
+{% for n in Familia %}
+{{flia.nombre}}
+{{flia.apellido}}
+{{flia.edad}}
+{{flia.fecha_nacimiento}}
 <br>
 {% endfor %}
